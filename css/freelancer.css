@@ -687,6 +687,9 @@ div#maincontent {
 .member_info {
   padding: 20%;
 }
+.member_info:hover {
+  background-image: url('../img/portfolio/mediumblue.png')
+}
 .member_info h2 {
   font-size: 30px;
 }
