@@ -34,7 +34,7 @@ section.module.team {
   opacity: .5; -webkit-filter: grayscale(100%);
 }
 section.module.clients {
-  background-image: url("../img/home.jpg");
+  background-image: url("../img/darts.jpg");
   opacity: .5; -webkit-filter: grayscale(100%);
   height: 17em;
 }
