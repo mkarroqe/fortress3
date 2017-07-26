@@ -50,6 +50,10 @@ h6 {
 .lightgrey {
   background-color: #ecf0f1;
 }
+.white {
+  background-color: #ffffff;
+  color: #1f294d;
+}
 .bold {
   font-weight: 900;
 }
@@ -217,7 +221,6 @@ section.success {
 .strategies2 .container p {
   font-weight:900; 
   font-size: 20px;
-  color: black;
   z-index: 1;
 }
 .strategies2 br {
@@ -235,7 +238,7 @@ section.success {
   text-align: center;
   color: #1f294d;
   /*background-color: #ecf0f1;*/
-  background-color: transparent;
+  background-color: #ffffff;
 }
 .strategies2M {
   padding: 30px;
