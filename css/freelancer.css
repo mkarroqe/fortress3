@@ -229,12 +229,13 @@ section.success {
 .strategies2 {
   padding-top: 20px;
   padding-bottom: 0px;
-  height: 150px;
+  height: 6em;
   font-size: 20px;
   font-weight: 900;
   text-align: center;
   color: #1f294d;
-  background-color: #ecf0f1;
+  /*background-color: #ecf0f1;*/
+  background-color: transparent;
 }
 .strategies2M {
   padding: 30px;
@@ -242,7 +243,7 @@ section.success {
   height: 100%;
   font-size: 1px;
   font-weight: 700;
-  text-align: left;
+  text-align: center;
   color: #1f294d;
   background-color: #ecf0f1;
 }
