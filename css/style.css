@@ -45,9 +45,8 @@ section.module.home {
 }
 section.module.oa {
   z-index: -1;
-  background-image: url("../img/oa.jpg");
-  height: 17em;
-  opacity: .5; -webkit-filter: grayscale(100%);
+  background-image: url("../img/oa.png");
+  /*height: 17em;*/
 }
 section.module.oa h4 {
   opacity: 1;
