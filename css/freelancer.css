@@ -573,7 +573,9 @@ fieldset[disabled] .btn-success.active {
   padding-left: -10%;
   padding-bottom: 20px;
 }
-
+.img-team:hover {
+  content: url('../img/portfolio/mediumblue.png');
+}
 .portfolio-modal .modal-body {
   opacity: 1;
 }
@@ -648,6 +650,7 @@ div#maincontent {
 }
 
 .meth-item a { 
+  z-index: 1;
   float:left;
   padding:5px;
   margin-left: -20px;
