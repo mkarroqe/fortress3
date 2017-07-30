@@ -541,7 +541,10 @@ fieldset[disabled] .btn-success.active {
   -moz-transition: all ease 0.5s;
 }
 #portfolio .portfolio-item .portfolio-link .caption h2 {
-  font-size: 29px;
+  font-size: 21px;
+}
+#portfolio .portfolio-item .portfolio-link .caption h4 {
+  font-size: 18px;
 }
 /*
 #portfolio .portfolio-item .portfolio-link .caption .caption-content {
