@@ -1,6 +1,48 @@
 <!-- 
-FOR V-CARD:
-<i class="fa fa-envelope" aria-hidden="true"></i> 
+TO SITE EDITOR on adding new bios:
+
+1.  Underneath the comment "1. NAMES," fill in 
+    the following template and add under the appropriate name; each "name box" is separated with a line break. 
+
+    You will need to change the <a> id to #firstName_lastInitial, the <h2> with the full name, and the <h4> to their title.
+
+    This will be one of the blue boxes with team member names and titles.
+    
+    <div class="col-md-4 col-sm-6 col-xs-12 portfolio-item">
+        <a href="#firstName_lastInitial" class="portfolio-link" data-toggle="modal">
+            <div class="member_info caption">
+                <h2>Full Name</h2>
+                <h4>Title</h4>
+            </div>
+            <img src="img/portfolio/blue.png" class="img-team img-responsive" alt="blue tent">
+        </a>
+    </div>
+
+2.  Underneath the comment "2. BIOS," fill in the
+    following template and add under the appropriate name.  This will be the pop-up modal with the bio.
+
+    You will need to change the main <div> id to the respective firstName_lastInitial, the <h5 class modal-title"> to their full name, the <p> underneath it to their title, and add their bio where it says "*BIO TEXT HERE*".
+
+    <div id="firstName_lastInitial" class="modal fade">
+      <div class="modal-dialog modal-lg" role="dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Full Name</h5>
+            <p>Title</p>
+          </div>
+          <div class="modal-body">
+            <p>
+                * BIO TEXT HERE *
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+Thanks! Feel free to email me at mkarroqe@gmail.com with any questions.
 -->
 
 <!DOCTYPE html>
@@ -107,195 +149,206 @@ FOR V-CARD:
         </div>
     </section>
 
-    <!-- Portfolio Grid Section -->
+    <!-- 1. NAMES -->
     <section class="lightgrey" id="portfolio">
         <div class="container">
             <div class="row">
-                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 portfolio-item">
+
+                <div class="col-md-4 col-sm-6 col-xs-12 portfolio-item">
                     <a href="#chris_caputo" class="portfolio-link" data-toggle="modal">
                         <div class="member_info caption">
-                            <h2>Chris Caputo</h2>
-                            <h4>Co-founder &amp; Managing Director</h4>
+                            <h2>Chris<br/> Caputo</h2>
+                            <h4>Co-founder &amp; <br/> Managing Director</h4>
                         </div>
                         <img src="img/portfolio/blue.png" class="img-team img-responsive" alt="blue">
                     </a>
                 </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 portfolio-item">
+
+                <div class="col-md-4 col-sm-6 col-xs-12 portfolio-item">
                     <a href="#bruce_w" class="portfolio-link" data-toggle="modal">
                         <div class="member_info caption">
-                            <h2>Bruce Williamson, CFA</h2>
-                            <h4>Co-founder &amp; Managing Director</h4>
+                            <h2>Bruce <br/>Williamson, CFA</h2>
+                            <h4>Co-founder &amp; <br/>Managing Director</h4>
                         </div>
                         <img src="img/portfolio/blue.png" class="img-team img-responsive" alt="Slice of blue">
                     </a>
                 </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 portfolio-item">
+
+                <div class="col-md-4 col-sm-6 col-xs-12 portfolio-item">
                     <a href="#mona_m" class="portfolio-link" data-toggle="modal">
                         <div class="member_info caption">
-                            <h2>Mona Marquardt</h2>
+                            <h2>Mona <br/> Marquardt</h2>
                             <h4>Managing Director</h4>
                         </div>
                         <img src="img/portfolio/blue.png" class="img-team img-responsive" alt="blue tent">
                     </a>
                 </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 portfolio-item">
+
+                <div class="col-md-4 col-sm-6 col-xs-12 portfolio-item">
                     <a href="#catherine_p" class="portfolio-link" data-toggle="modal">
                         <div class="member_info caption">
-                            <h2>Catherine Poulin</h2>
+                            <h2>Catherine <br/> Poulin</h2>
                             <h4>Managing Director</h4>
                         </div>
                         <img src="img/portfolio/blue.png" class="img-team img-responsive" alt="blue controller">
                     </a>
                 </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 portfolio-item">
+
+                <div class="col-md-4 col-sm-6 col-xs-12 portfolio-item">
                     <a href="#jeff_k" class="portfolio-link" data-toggle="modal">
                         <div class="member_info caption">
-                            <h2>Jeff Kitchin</h2>
+                            <h2>Jeff <br/> Kitchin</h2>
                             <h4>Director</h4>
                         </div>
                         <img src="img/portfolio/blue.png" class="img-team img-responsive" alt="blue">
                     </a>
                 </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 portfolio-item">
+
+                <div class="col-md-4 col-sm-6 col-xs-12 portfolio-item">
                     <a href="#rick_m" class="portfolio-link" data-toggle="modal">
                         <div class="member_info caption">
-                            <h2>Rick Marchese, CAIA</h2>
+                            <h2>Rick <br/> Marchese, CAIA</h2>
                             <h4>Director</h4>
                         </div>
                         <img src="img/portfolio/blue.png" class="img-team img-responsive" alt="blue">
                     </a>
                 </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 portfolio-item">
+
+                <div class="col-md-4 col-sm-6 col-xs-12 portfolio-item">
                     <a href="#patrick_n" class="portfolio-link" data-toggle="modal">
                         <div class="member_info caption">
-                            <h2>Patrick Neuman</h2>
+                            <h2>Patrick <br/> Neuman</h2>
                             <h4>Director</h4>
                         </div>
                         <img src="img/portfolio/blue.png" class="img-team img-responsive" alt="blue">
                     </a>
                 </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 portfolio-item">
+
+                <div class="col-md-4 col-sm-6 col-xs-12 portfolio-item">
                     <a href="#rolf_w" class="portfolio-link" data-toggle="modal">
                         <div class="member_info caption">
-                            <h2>Rolf Winzeler</h2>
+                            <h2>Rolf <br/> Winzeler</h2>
                             <h4>Senior Advisor</h4>
                         </div>
                         <img src="img/portfolio/blue.png" class="img-team img-responsive" alt="Slice of blue">
                     </a>
                 </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 portfolio-item">
+
+                <div class="col-md-4 col-sm-6 col-xs-12 portfolio-item">
                     <a href="#jared_g" class="portfolio-link" data-toggle="modal">
                         <div class="member_info caption">
-                            <h2>Jared Gardner, CFA</h2>
+                            <h2>Jared <br/> Gardner, CFA</h2>
                             <h4>Senior Vice President</h4>
                         </div>
                         <img src="img/portfolio/blue.png" class="img-team img-responsive" alt="blue tent">
                     </a>
                 </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 portfolio-item">
+
+                <div class="col-md-4 col-sm-6 col-xs-12 portfolio-item">
                     <a href="#don_n" class="portfolio-link" data-toggle="modal">
                         <div class="member_info caption">
-                            <h2>Don Novak</h2>
+                            <h2>Don <br/> Novak</h2>
                             <h4>Senior Vice President</h4>
                         </div>
                         <img src="img/portfolio/blue.png" class="img-team img-responsive" alt="blue tent">
                     </a>
                 </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 portfolio-item">
+
+                <div class="col-md-4 col-sm-6 col-xs-12 portfolio-item">
                     <a href="#andrew_l" class="portfolio-link" data-toggle="modal">
                         <div class="member_info caption">
-                            <h2>Andrew Lobas</h2>
+                            <h2>Andrew <br/> Lobas</h2>
                             <h4>Senior Associate</h4>
                         </div>
                         <img src="img/portfolio/blue.png" class="img-team img-responsive" alt="blue controller">
                     </a>
                 </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 portfolio-item">
+
+                <div class="col-md-4 col-sm-6 col-xs-12 portfolio-item">
                     <a href="#ben_p" class="portfolio-link" data-toggle="modal">
                         <div class="member_info caption">
-                            <h2>Ben Peterman</h2>
+                            <h2>Ben <br/> Peterman</h2>
                             <h4>Senior Analyst</h4>
                         </div>
                         <img src="img/portfolio/blue.png" class="img-team img-responsive" alt="blue">
                     </a>
                 </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 portfolio-item">
+
+                <div class="col-md-4 col-sm-6 col-xs-12 portfolio-item">
                     <a href="#quan_v" class="portfolio-link" data-toggle="modal">
                         <div class="member_info caption">
-                            <h2>Quan Vo</h2>
+                            <h2>Quan <br/> Vo</h2>
                             <h4>Senior Analyst</h4>
                         </div>
                         <img src="img/portfolio/blue.png" class="img-team img-responsive" alt="blue">
                     </a>
                 </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 portfolio-item">
+
+                <div class="col-md-4 col-sm-6 col-xs-12 portfolio-item">
                     <a href="#moses_l" class="portfolio-link" data-toggle="modal">
                         <div class="member_info caption">
-                            <h2>Moses Lee, CAIA</h2>
+                            <h2>Moses <br/> Lee, CAIA</h2>
                             <h4>Analyst</h4>
                         </div>
                         <img src="img/portfolio/blue.png" class="img-team img-responsive" alt="Slice of blue">
                     </a>
                 </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 portfolio-item">
+
+                <div class="col-md-4 col-sm-6 col-xs-12 portfolio-item">
                     <a href="#miles_l" class="portfolio-link" data-toggle="modal">
                         <div class="member_info caption">
-                            <h2>Miles Lerner</h2>
+                            <h2>Miles <br/> Lerner</h2>
                             <h4>Analyst</h4>
                         </div>
                         <img src="img/portfolio/blue.png" class="img-team img-responsive" alt="blue tent">
                     </a>
                 </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 portfolio-item">
+
+                <div class="col-md-4 col-sm-6 col-xs-12 portfolio-item">
                     <a href="#shane_s" class="portfolio-link" data-toggle="modal">
                         <div class="member_info caption">
-                            <h2>Shane Sutera</h2>
+                            <h2>Shane <br/> Sutera</h2>
                             <h4>Analyst</h4>
                         </div>
                         <img src="img/portfolio/blue.png" class="img-team img-responsive" alt="blue tent">
                     </a>
                 </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 portfolio-item">
+
+                <div class="col-md-4 col-sm-6 col-xs-12 portfolio-item">
                     <a href="#jenny_h" class="portfolio-link" data-toggle="modal">
                         <div class="member_info caption">
-                            <h2>Jenny Hammock</h2>
+                            <h2>Jenny <br/> Hammock</h2>
                             <h4>Controller</h4>
                         </div>
                         <img src="img/portfolio/blue.png" class="img-team img-responsive" alt="blue tent">
                     </a>
                 </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 portfolio-item">
+
+                <div class="col-md-4 col-sm-6 col-xs-12 portfolio-item">
                     <a href="#alex_s" class="portfolio-link" data-toggle="modal">
                         <div class="member_info caption">
-                            <h2>Alex Shakhnovsky</h2>
+                            <h2>Alex <br/> Shakhnovsky</h2>
                             <h4>IT Director</h4>
                         </div>
                         <img src="img/portfolio/blue.png" class="img-team img-responsive" alt="blue controller">
                     </a>
                 </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 portfolio-item">
+
+                <div class="col-md-4 col-sm-6 col-xs-12 portfolio-item">
                     <a href="#johanna_m" class="portfolio-link" data-toggle="modal">
                         <div class="member_info caption">
-                            <h2>Johanna McLean</h2>
+                            <h2>Johanna <br/> McLean</h2>
                             <h4>Office Manager</h4>
                         </div>
                         <img src="img/portfolio/blue.png" class="img-team img-responsive" alt="blue controller">
                     </a>
                 </div>
+
             </div>
         </div>
     </section>
 
-    <!-- lil x
-        <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-                <div class="rl">
-                </div>
-            </div>
-        </div>
-    -->
-
-    <!-- Portfolio Modals -->
+    <!-- 2. BIOS -->
     <div id="chris_caputo" class="modal fade">
       <div class="modal-dialog modal-lg" role="dialog">
         <div class="modal-content">
