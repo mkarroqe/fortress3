@@ -5,10 +5,14 @@ $(document).ready(function(){
 
 $('.owl-carousel').owlCarousel({
     loop:true,
-    nav:false,
+    nav:true,
+    smartSpeed:1000,
+    nav: true,
+    navText: ["<i class='fa fa-chevron-left'></i>","<i class='fa fa-chevron-right'></i>"],
+    dots: false,
     autoplay:true,
-    autoplayTimeout:1700,
-    autoplayHoverPause:true,
+    //autoplayTimeout:1700,
+    //autoplayHoverPause:true,
     responsiveClass: true,
     responsive:{
         0:{
